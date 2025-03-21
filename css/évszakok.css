@@ -8,6 +8,7 @@ img{
     border: 5px, solid, black;
     border-radius: 5px;
     transition: 1s;
+    height: 150px;
 }
 img:hover{
     transform: scale(1.3);
