@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/urlap.css">
+    <title>űrlap</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">FŐOLDAL</a> |
+        <a href="listak.html">LISTÁK</a> |
+        <a href="orarend.html">ÓRAREND</a> |
+        <a href="evszakok.html">ÉVSZAKOK</a> |
+        <a href="urlap.html">ŰRLAP</a> |
+    </nav>
+
+    <h2>Pizza rendelés</h2>
+    <form>
+        <fieldset>
+            <legend>Személyes adatok</legend>
+            <label for="nev">Név: </label>
+            <input type="text" name="nev" id="nev" placeholder="János Nagy" required>
+            <br>
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="pelda123@gmail.com" required>
+            <br>
+            <br>
+            <label for="lakcím">Lakcím:: </label>
+            <input type="text" name="lakcím" id="lakcím" placeholder="Miskolc, kispista út 6" required>
+            <br>
+            <br>
+            <label for="tel">Tel: </label>
+            <input type="number" name="tel" id="tel" placeholder="06 30 324 7987" required>
+        </fieldset>
+        <fieldset>
+            <legend>Rendelés</legend>
+            <h2>Méret</h2>
+            <input type="radio" name="meret" id="kicsi">
+            <label for="25 cm"></label>
+            <input type="radio" name="meret" id="kozepes">
+            <label for="32 cm"></label>
+            <input type="radio" name="meret" id="nagy">
+            <label for="55 cm"></label>
+        </fieldset>
+    </form>
+
+</body>
+</html>
